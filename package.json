@@ -1,0 +1,17 @@
+{
+  "name": "snow",
+  "version": "0.0.0",
+  "description": "hide js in the whitespace",
+  "main": "app.js",
+  "dependencies": {
+    "node-minify": "~0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
