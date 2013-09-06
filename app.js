@@ -35,7 +35,7 @@ function fromWhiteSpace(str){
 var fileName = process.argv[2],
 	wsFileName = fileName+'.ws',
 	goFileName = fileName+'.ws.go',
-	minFileName = fileName+'.ws.go.min',sud
+	minFileName = fileName+'.ws.go.min',
 	js = fs.readFileSync(fileName).toString(),
 	ws = toWhiteSpace(js),
 	go = fromWhiteSpace.toString().replace(/fromWhiteSpace/, 'xj5') + 'eval(xj5("'+ws+'"));';
